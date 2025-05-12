@@ -1,6 +1,6 @@
 export function Section() {
     return (
-        <section className="flex flex-col justify-center p-6 gap-6">
+        <section className="flex flex-col justify-center p-6 gap-6 container mx-auto">
             <div className="bg-amber-400 rounded-xl p-8 space-y-2">
                 <div className="flex justify-between items-center ">
                     <div className="">
@@ -19,6 +19,13 @@ export function Section() {
                     <p className="text-sm font-medium">
                         Descrição breve...
                     </p>
+                </div>
+                <div className="text-center border-2 border-white py-2 rounded-xl text-white mt-6">
+                    <a href="/precos">
+                        <h1 className="font-semibold">
+                            Confira Todos os Preços
+                        </h1>
+                    </a>
                 </div>
             </div>
             <div>

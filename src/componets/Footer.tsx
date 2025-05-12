@@ -1,7 +1,7 @@
 export function Footer() {
     return (
-        <footer>
-            <div className="container text-center bg-black space-y-4 py-8 text-white">
+        <footer className="bg-black">
+            <div className="container text-center bg-black space-y-4 py-8 text-white mx-auto">
                 <p>
                     © 2024 [Seu Nome]. Todos os direitos
                     reservados.
